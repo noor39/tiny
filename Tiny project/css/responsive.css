@@ -1,0 +1,115 @@
+
+/**********************
+***CSS MEdia Queries ****
+************************/
+@media (min-width: 768px) and (max-width: 1024px) {
+   .header-section .navbar-light .navbar-nav .nav-link {
+	    color: rgba(0,0,0);
+	    font-size: 14px;
+	    font-weight: 900;
+	    margin: 0px 0px 0px 30px;
+	}
+   .banner .text-inner h1 {
+	    font-size: 40px;
+	    line-height: 69px;
+	    font-weight: 500;
+	    font-family: 'PT Sans', sans-serif;
+	}
+	.banner .text-inner h5 {
+	    font-size: 20px;
+	    color: #313841;
+	    line-height: 26px;
+	    font-weight: 500;
+	    font-family: 'PT Sans', sans-serif;
+	}
+	.banner .text-inner p{
+	    font-size: 16px;
+	    color: #555555;
+	    line-height: 28px;
+	    font-weight: 400;
+	    font-family: 'PT Sans', sans-serif;
+	}
+	
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-section .navbar-light .navbar-nav .nav-link {
+	    color: rgba(0,0,0);
+	    font-size: 20px;
+	    font-weight: 900;
+	    margin: 0px 0px 0px 30px;
+	}
+	.banner .text-inner h1 {
+	    font-size: 40px;
+	    line-height: 69px;
+	    font-weight: 500;
+	    font-family: 'PT Sans', sans-serif;
+	}
+	.banner .text-inner h5 {
+	    font-size: 20px;
+	    color: #313841;
+	    line-height: 26px;
+	    font-weight: 500;
+	    font-family: 'PT Sans', sans-serif;
+	}
+	.banner .text-inner p{
+	    font-size: 16px;
+	    color: #555555;
+	    line-height: 28px;
+	    font-weight: 400;
+	    font-family: 'PT Sans', sans-serif;
+	}
+	.banner .text-inner .inner-img{
+		margin: 30px;
+	}
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .header-section .navbar-light .navbar-nav .nav-link {
+	    color: rgba(0,0,0);
+	    font-size: 14px;
+	    font-weight: 900;
+	    margin: 0px 0px 0px 30px;
+	}
+	.banner .text-inner h1 {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 600;
+    font-family: 'PT Sans', sans-serif;
+}
+	.banner .text-inner h5 {
+	    font-size: 18px;
+	    line-height: 22px;
+	    font-weight: 500;
+	    font-family: 'PT Sans', sans-serif;
+	    color: #313841;
+	}
+	.banner .text-inner p{
+	    font-size: 16px;
+	    color: #555555;
+	    line-height: 22px;
+	    font-weight: 400;
+	    font-family: 'PT Sans', sans-serif;
+	}
+	.banner .text-inner.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+}
+}
+/*my website css code end*/
